@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7585C16A1BE3284600903660 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585C1691BE3284600903660 /* AppDelegate.swift */; };
+		7585C16C1BE3284600903660 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585C16B1BE3284600903660 /* ViewController.swift */; };
+		7585C16F1BE3284600903660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7585C16D1BE3284600903660 /* Main.storyboard */; };
+		7585C1711BE3284600903660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7585C1701BE3284600903660 /* Assets.xcassets */; };
+		7585C1741BE3284600903660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7585C1721BE3284600903660 /* LaunchScreen.storyboard */; };
+		7585C17F1BE3284600903660 /* PinCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585C17E1BE3284600903660 /* PinCodeTests.swift */; };
+		7585C18A1BE3284600903660 /* PinCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585C1891BE3284600903660 /* PinCodeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7585C17B1BE3284600903660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7585C15E1BE3284600903660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7585C1651BE3284600903660;
+			remoteInfo = PinCode;
+		};
+		7585C1861BE3284600903660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7585C15E1BE3284600903660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7585C1651BE3284600903660;
+			remoteInfo = PinCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7585C1661BE3284600903660 /* PinCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7585C1691BE3284600903660 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7585C16B1BE3284600903660 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7585C16E1BE3284600903660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7585C1701BE3284600903660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7585C1731BE3284600903660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7585C1751BE3284600903660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7585C17A1BE3284600903660 /* PinCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7585C17E1BE3284600903660 /* PinCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeTests.swift; sourceTree = "<group>"; };
+		7585C1801BE3284600903660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7585C1851BE3284600903660 /* PinCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7585C1891BE3284600903660 /* PinCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeUITests.swift; sourceTree = "<group>"; };
+		7585C18B1BE3284600903660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7585C1631BE3284600903660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7585C1771BE3284600903660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7585C1821BE3284600903660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7585C15D1BE3284600903660 = {
+			isa = PBXGroup;
+			children = (
+				7585C1681BE3284600903660 /* PinCode */,
+				7585C17D1BE3284600903660 /* PinCodeTests */,
+				7585C1881BE3284600903660 /* PinCodeUITests */,
+				7585C1671BE3284600903660 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7585C1671BE3284600903660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7585C1661BE3284600903660 /* PinCode.app */,
+				7585C17A1BE3284600903660 /* PinCodeTests.xctest */,
+				7585C1851BE3284600903660 /* PinCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7585C1681BE3284600903660 /* PinCode */ = {
+			isa = PBXGroup;
+			children = (
+				7585C1691BE3284600903660 /* AppDelegate.swift */,
+				7585C16B1BE3284600903660 /* ViewController.swift */,
+				7585C16D1BE3284600903660 /* Main.storyboard */,
+				7585C1701BE3284600903660 /* Assets.xcassets */,
+				7585C1721BE3284600903660 /* LaunchScreen.storyboard */,
+				7585C1751BE3284600903660 /* Info.plist */,
+			);
+			path = PinCode;
+			sourceTree = "<group>";
+		};
+		7585C17D1BE3284600903660 /* PinCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7585C17E1BE3284600903660 /* PinCodeTests.swift */,
+				7585C1801BE3284600903660 /* Info.plist */,
+			);
+			path = PinCodeTests;
+			sourceTree = "<group>";
+		};
+		7585C1881BE3284600903660 /* PinCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7585C1891BE3284600903660 /* PinCodeUITests.swift */,
+				7585C18B1BE3284600903660 /* Info.plist */,
+			);
+			path = PinCodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7585C1651BE3284600903660 /* PinCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7585C18E1BE3284600903660 /* Build configuration list for PBXNativeTarget "PinCode" */;
+			buildPhases = (
+				7585C1621BE3284600903660 /* Sources */,
+				7585C1631BE3284600903660 /* Frameworks */,
+				7585C1641BE3284600903660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinCode;
+			productName = PinCode;
+			productReference = 7585C1661BE3284600903660 /* PinCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7585C1791BE3284600903660 /* PinCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7585C1911BE3284600903660 /* Build configuration list for PBXNativeTarget "PinCodeTests" */;
+			buildPhases = (
+				7585C1761BE3284600903660 /* Sources */,
+				7585C1771BE3284600903660 /* Frameworks */,
+				7585C1781BE3284600903660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7585C17C1BE3284600903660 /* PBXTargetDependency */,
+			);
+			name = PinCodeTests;
+			productName = PinCodeTests;
+			productReference = 7585C17A1BE3284600903660 /* PinCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7585C1841BE3284600903660 /* PinCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7585C1941BE3284600903660 /* Build configuration list for PBXNativeTarget "PinCodeUITests" */;
+			buildPhases = (
+				7585C1811BE3284600903660 /* Sources */,
+				7585C1821BE3284600903660 /* Frameworks */,
+				7585C1831BE3284600903660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7585C1871BE3284600903660 /* PBXTargetDependency */,
+			);
+			name = PinCodeUITests;
+			productName = PinCodeUITests;
+			productReference = 7585C1851BE3284600903660 /* PinCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7585C15E1BE3284600903660 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Nabin Singh";
+				TargetAttributes = {
+					7585C1651BE3284600903660 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					7585C1791BE3284600903660 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 7585C1651BE3284600903660;
+					};
+					7585C1841BE3284600903660 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 7585C1651BE3284600903660;
+					};
+				};
+			};
+			buildConfigurationList = 7585C1611BE3284600903660 /* Build configuration list for PBXProject "PinCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7585C15D1BE3284600903660;
+			productRefGroup = 7585C1671BE3284600903660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7585C1651BE3284600903660 /* PinCode */,
+				7585C1791BE3284600903660 /* PinCodeTests */,
+				7585C1841BE3284600903660 /* PinCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7585C1641BE3284600903660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7585C1741BE3284600903660 /* LaunchScreen.storyboard in Resources */,
+				7585C1711BE3284600903660 /* Assets.xcassets in Resources */,
+				7585C16F1BE3284600903660 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7585C1781BE3284600903660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7585C1831BE3284600903660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7585C1621BE3284600903660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7585C16C1BE3284600903660 /* ViewController.swift in Sources */,
+				7585C16A1BE3284600903660 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7585C1761BE3284600903660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7585C17F1BE3284600903660 /* PinCodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7585C1811BE3284600903660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7585C18A1BE3284600903660 /* PinCodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7585C17C1BE3284600903660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7585C1651BE3284600903660 /* PinCode */;
+			targetProxy = 7585C17B1BE3284600903660 /* PBXContainerItemProxy */;
+		};
+		7585C1871BE3284600903660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7585C1651BE3284600903660 /* PinCode */;
+			targetProxy = 7585C1861BE3284600903660 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7585C16D1BE3284600903660 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7585C16E1BE3284600903660 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7585C1721BE3284600903660 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7585C1731BE3284600903660 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7585C18C1BE3284600903660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7585C18D1BE3284600903660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7585C18F1BE3284600903660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PinCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nabinsingh.PinCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7585C1901BE3284600903660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PinCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nabinsingh.PinCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7585C1921BE3284600903660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PinCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nabinsingh.PinCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinCode.app/PinCode";
+			};
+			name = Debug;
+		};
+		7585C1931BE3284600903660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PinCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nabinsingh.PinCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PinCode.app/PinCode";
+			};
+			name = Release;
+		};
+		7585C1951BE3284600903660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PinCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nabinsingh.PinCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PinCode;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7585C1961BE3284600903660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PinCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nabinsingh.PinCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PinCode;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7585C1611BE3284600903660 /* Build configuration list for PBXProject "PinCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7585C18C1BE3284600903660 /* Debug */,
+				7585C18D1BE3284600903660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7585C18E1BE3284600903660 /* Build configuration list for PBXNativeTarget "PinCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7585C18F1BE3284600903660 /* Debug */,
+				7585C1901BE3284600903660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7585C1911BE3284600903660 /* Build configuration list for PBXNativeTarget "PinCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7585C1921BE3284600903660 /* Debug */,
+				7585C1931BE3284600903660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7585C1941BE3284600903660 /* Build configuration list for PBXNativeTarget "PinCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7585C1951BE3284600903660 /* Debug */,
+				7585C1961BE3284600903660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7585C15E1BE3284600903660 /* Project object */;
+}
